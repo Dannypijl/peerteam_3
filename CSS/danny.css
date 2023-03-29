@@ -1,0 +1,6 @@
+.hero-container{
+    background-image: url("../IMG/winkelBanner.jpg");
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100vh;
+}
