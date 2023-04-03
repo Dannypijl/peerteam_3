@@ -3,15 +3,7 @@
     "afbeelding": "https://www.emerce.nl/content/uploads/2021/04/HM_Westfield-Mall-Of-The-Netherlands-1-web35036-430x400.jpg",
     "naam": "H&M",
     "beschrijving": "H&M (Hennes & Mauritz) is een Zweedse kledingketen die wereldwijd opereert en bekend staat om zijn trendy en betaalbare kleding. Het bedrijf biedt een breed scala aan kledingstukken, schoenen en accessoires voor mannen, vrouwen en kinderen. H&M heeft meer dan 5.000 winkels in meer dan 70 landen en is een van de grootste kledingretailers ter wereld. Het bedrijf heeft zich ook gericht op duurzaamheid en heeft verschillende initiatieven gelanceerd om zijn impact op het milieu te verminderen.",
-    "faciliteiten": [
-      "Toegankelijke ingangen met brede deuren en hellingbanen voor rolstoelen en mobiliteitsapparaten",
-      "Ruime paskamers die toegankelijk zijn voor rolstoelgebruikers",
-      "Verstelbare paskamerspiegels op verschillende hoogtes",
-      "Hulp van medewerkers bij het passen van kleding en het zoeken naar maten",
-      "Online winkelen en thuisbezorging als alternatief voor fysiek winkelen",
-      "Braille-labels op de kledingrekken om klanten te helpen bij het navigeren in de winkel",
-      "Signage en informatie in grote letters voor klanten met een visuele beperking"
-    ],
+    "faciliteiten": ["Toegankelijke ingangen met brede deuren en hellingbanen voor rolstoelen en mobiliteitsapparaten", "Ruime paskamers die toegankelijk zijn voor rolstoelgebruikers", "Verstelbare paskamerspiegels op verschillende hoogtes", "Hulp van medewerkers bij het passen van kleding en het zoeken naar maten", "Online winkelen en thuisbezorging als alternatief voor fysiek winkelen", "Braille-labels op de kledingrekken om klanten te helpen bij het navigeren in de winkel", "Signage en informatie in grote letters voor klanten met een visuele beperking"],
     "Mededeling": "Let op, de faciliteiten kunnen per winkel verschillen en het is daarom altijd het beste om de specifieke winkel te bellen of te e-mailen om te informeren naar hun toegankelijkheidsfaciliteiten."
   }, {
       "afbeelding": "https://www.textilia.nl/app/uploads/2019/10/Zara-Brussel-Winkelpui-CCBYSA40-Tim-Van-de-Velde.jpg",
