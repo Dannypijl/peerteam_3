@@ -1,0 +1,187 @@
+@font-face {
+    font-family: coolvetica Rg;
+    src: url("../fonts/coolvetica.otf");
+}
+
+@font-face {
+    font-family: coolvetica;
+    src: url("../fonts/coolvetica_compressed.otf");
+}
+
+@font-face {
+    font-family: coolvetica;
+    src: url("../fonts/coolvetica_other.otf");
+}
+
+body {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+    font-family: coolvetica Rg, coolvetica, coolvetica Rg ;
+}
+
+h1 {
+    color: #0066F9;
+}
+
+h2 {
+    color: #0066F9;
+    font-size: 2em;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#super {
+    background-image: url("../img/background1.png");
+    background-repeat: repeat;
+    background-size: 25vw;
+}
+
+.select {
+    object-fit: contain;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.select img {
+    background: #0066F9;
+    height: 15vh;
+}
+
+.select img:hover {
+    filter: brightness(95%);
+    cursor: pointer;
+}
+
+.select #left {
+    transform: scaleX(-1);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    text-align: center;
+    margin: 2vw;
+    width: 22vw;
+    display: flex;
+    flex-direction: column-reverse;
+    background: #FFFFFF ;
+    box-shadow: black 3px 3px 5px;
+    justify-content: space-between;
+}
+
+.card:hover {
+    filter: brightness(95%);
+    cursor: pointer;
+}
+
+.card .access {
+    display: flex;
+    flex-direction: row;
+}
+
+.card .logo {
+    object-fit: contain;
+    margin: 2vw;
+    box-shadow: black 1px 1px 1px;
+    height: 30vh;
+}
+
+.access img {
+    height: 10vh;
+    object-fit: contain;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.access span {
+    text-align: left;
+    padding: 1em;
+}
+
+.window {
+    display: none;
+}
+
+.window[open] {
+    padding: 4vw;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 80vh;
+    border: none;
+    box-shadow: black 3px 3px 5px;
+    justify-content: space-around;
+}
+
+.window::backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#main-dialog-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 3;
+    margin: 1vw;
+    box-shadow: black 3px 3px 5px;
+    padding: 4vh;
+}
+
+#title-items {
+    display: flex;
+    flex-direction: column;
+}
+
+#title-items h1 {
+    font-size: 2.4em;
+}
+
+#title-items a {
+    font-size: 1.6em;
+    color: #FFFFFF;
+    background-color: #0066F9;
+    margin: 0.5vh;
+    text-decoration: none;
+    text-align: center;
+}
+
+#store-description {
+    padding: 4vw;
+    font-size: 1.5em;
+}
+
+#accessible-parameters {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    font-size: 1.5em;
+    padding: 4vw;
+    margin: 1vw;
+    box-shadow: black 3px 3px 5px;
+}
+
+#accessible-parameters div {
+    background-color: #0066F9;
+    padding: 1vw;
+    box-shadow: black 3px 3px 5px;
+}
+
+#accessible-parameters div img {
+    height: 10vh;
+    object-fit: contain;
+}
+
+#accessible-parameters div span {
+    color: #FFFFFF;
+}
