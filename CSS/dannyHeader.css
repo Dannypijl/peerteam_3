@@ -1,5 +1,6 @@
 .brand h1 span {
     color: #00ff55;
+    text-decoration: none;
 }
 
 .brand h1 {
@@ -8,6 +9,15 @@
     color: white;
 }
 
+a{
+    text-decoration: none;
+}
+
+.nav-bar {
+    background-color: rgba(31,30,30);
+    box-sizing: border-box;
+    width: 100%;
+}
 
 #header {
     position: fixed;
@@ -19,8 +29,7 @@
 }
 #header .header {
     min-height: 8vh;
-    background-color: rgba(31, 30, 30, 0.24);
-    transition: 0.3s ease background-color;
+    background-color: rgba(31, 30, 30);
 }
 #header .nav-bar {
     display: flex;
@@ -166,6 +175,18 @@
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .cta {
+        font-size: 2.5rem;
+        padding: 20px 60px;
+    }
+    h1.section-title {
+        font-size: 6rem;
+    }
+}
+/* End Media Query For Tablet */
+
+/* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
     /* header */
     #header .hamburger {
@@ -187,3 +208,10 @@
     #header .nav-list ul a:after {
         display: none;
     }
+    /* End header */
+
+    #services .service-bottom .service-item {
+        flex-basis: 22%;
+        margin: 1.5%;
+    }
+}

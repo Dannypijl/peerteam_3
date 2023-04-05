@@ -28,6 +28,7 @@ body{
 .card{
     border-radius: 25px;
     background-color: #FFF;
+    margin-bottom: 10%;
 }
 .image-content,
 .card-content{
