@@ -1,0 +1,45 @@
+body {
+    background-color: #00cc3e;
+    font-family:'Coolvetica Rg' , 'Coolvetica Condensed Rg' ;
+    color: White ;
+}
+
+#Home {
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1350px){
+    header {
+        display: flex;
+        justify-content: center;
+        background-color: #006699;
+        border-radius: 15px;
+
+    }
+}
+
+#timeinfo {
+        background-color: #006699;
+        display: flex;
+        border-radius: 10px;
+    }
+
+
+@media (max-width: 1350px){
+    #timeinfo {
+        color: #00cc3e;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.timeInfo-card{
+    margin: 10px;
+
+}
